@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul,div,button,h1,h2{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.rel{
+    position: relative;
+}
+.asb{
+    position: absolute;
+}
+body{
+    font-size: 18px;
+    font-family: 'Montserrat', 'EB Garamomd';
+    padding-top: 138px;
+}
+li{
+    list-style: none;
+    
+}
+.content{
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.navList{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.navList .txt1{
+    color: #333333;
+    margin-right: 5%;
+    cursor: pointer;
+}
+.navList .txt1.txtbtn{
+    padding: 0 10px;
+    line-height: 50px;
+    background: #42c978;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.hello{
+    width: 280px;
+    height: 280px;
+    border-radius: 280px;
+    font-size: 60px;
+    line-height: 280px;
+    background: #f1ce42;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.two .txt1{
+    width: 990px;
+}
+
+.two .txt1 .p{
+    word-wrap: break-word; 
+    word-break: normal; 
+    font-size: 45px;
+    padding-left: 220px;
+}
+
+.two .txt1 .h{
+    padding-left: 220px;
+    font-size: 75px;
+    line-height: 100px;
+    margin-bottom: 50px;
+}
+
+.ps{
+    word-wrap: break-word; 
+    word-break: normal; 
+    font-size: 45px;
+    width: 990px;
+    margin-bottom: 170px;
+}
+
+.img{
+    display: block;
+    width: 1440px;
+    margin: 0 auto 200px ;
+    height: auto;
+}
+
+.txt{
+    text-align: center;
+    font-size: 50px;
+    margin: 100px auto 65px;
+}
+
+.imgBox{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imgBox .icon1{
+    width: 63px;
+    height: 65px;
+    margin-right: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBox{
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.footerBox p{
+    font-size: 36px;
+    line-height: 60px;
+}
+
+/* Media query for screens 600px or less */
+
+@media (max-width: 600px) {
+
+    .content {
+        width: 100%;
+        }
+        
+    .two {
+        flex-direction: column;
+        }
+        
+    .two .txt1 {
+        width: 100%;
+        }
+        
+    .img {
+        width: 100%;
+  }
+}
